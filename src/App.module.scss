@@ -70,6 +70,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+   @media (min-width: 1024px) and (max-width: 1279px) {
+    width: 100vw;
+  }
   @media (min-width: 768px) and (max-width: 1023px) {
     width: 100vw;
   }
@@ -204,7 +207,6 @@ body {
   color: var(--pagination);
   cursor: default;
   box-sizing: border-box;
-  height: 24px;
   font-family: "Inter";
   font-weight: 100;
   font-size: 16px;

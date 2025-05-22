@@ -52,7 +52,7 @@ const Gallery = () => {
       <div className={styles.searchContainer}>
         <form onSubmit={handleSearch} className={styles.searchForm}>
           <img
-            src="/public/search_icon.svg"
+            src={`${import.meta.env.BASE_URL}images/search_icon.svg`}
             alt="search"
             className={styles.searchIcon}
           />
